@@ -1,0 +1,530 @@
+html{
+	scroll-behavior: smooth;	
+}
+
+body{
+	background: url(img/back.png) no-repeat center center;
+	background-size: cover;
+	background-color: #000;
+	transition: 0.3s;
+	scroll-behavior: smooth;
+}
+
+body.light{
+	background-color: #9f9f9f;
+}
+
+h2{
+	font-family: "Magistral Bold";
+	font-size: 50px;
+	font-weight: bold;
+	color: #fff;
+	margin-bottom: 40px;
+}
+
+nav{
+	/* background: url(img/podloshka.png) no-repeat center center; */
+	background: #000;
+	background-size: cover;
+	/* padding-bottom: 30px; */
+	font-family: "Play Regular" !important;
+	transition: 0.3s;
+}
+
+.light nav{
+	background: #fff;
+}
+
+header{
+	background-size: cover;
+}
+
+nav ul li a{
+	color: #fff;
+	transition: 0.3s;
+}
+
+nav ul li a:hover{
+	opacity: 0.8;
+}
+
+.light nav ul li a{
+	color: #000;
+}
+
+.subscribe-form button{
+	background: transparent;
+	border: none;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	right: 10px;
+	padding: 0;
+	width: 17px;
+}
+
+.subscribe-form button img{
+	width: 100%;
+	max-width: 100%;
+	display: block;
+}
+
+.input__container{position: relative;}
+
+.navbar .logo, .footer__container .logo{
+	width: 35px;
+	max-width: 100%;
+}
+
+.logo img{
+	width: 100%;
+	max-width: 100%;
+	display: block;
+	transition: 0.3s;
+}
+
+.light .logo img{
+	filter: invert(1);
+}
+
+.nav-link{
+	/* padding: 8px 35px 30px 35px !important; */
+	padding: 0 35px !important;
+	text-decoration: none;
+}
+
+.nav-link:hover{
+	color: #fff;
+}
+
+.light .nav-link:hover{
+	color: #000;
+}
+
+.btn-purple{
+	background: url(img/sec-button.png) center center no-repeat;
+	background-size: cover;
+	padding: 0px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #fff !important;
+	padding: 5px 20px;
+	margin-left: 2px;
+	text-decoration: none !important;
+}
+
+.btn-orange{
+	background: url(img/fir-button.png) center center no-repeat;
+	background-size: cover;
+	padding: 0px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #fff !important;
+	padding: 5px 20px; 
+	margin-left: 6px;
+	text-decoration: none !important;
+}
+
+.card__buttons div{
+	margin: 20px 0;
+}
+
+.card__buttons{
+	margin-top: -140px;
+}
+
+.game{
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 30px;
+	font-family: "Play Bold";
+}
+
+.game img{
+	max-width: 300px;
+}
+
+.game .card__container{
+	transition: 0.3s;
+	cursor: pointer;
+}
+
+.game .card__container:hover{
+	transform: scale(1.1);
+}
+
+.card__container.fix__card{
+	margin-left: 0;
+}
+
+.card__container{
+	margin-left: -44px;
+	overflow: hidden;
+}
+
+/* footer h2{
+	font-size: 50px;
+	font-weight: bold;
+	color: #fff;
+	margin-bottom: 40px;
+} */
+
+footer{
+	background-size: cover;
+	padding-top: 50px;
+}
+
+.card{
+	background: #000;
+	background-size: cover;
+	padding: 0;
+	transform: skewX(-5deg);
+	transition: 0.3s;
+}
+
+.light .card{
+	background: #fff;
+}
+
+.light .card img{filter: invert(1);}
+
+.card p{
+	font-size: 17px;
+	color: #fff;
+	font-family: "Play Regular";
+}
+
+.light .card p{color: #000}
+
+.title-card{
+	font-size: 25px;
+	font-weight: bold;
+	background: linear-gradient(#fe8718, #e82c40); 
+  	-webkit-background-clip: text; 
+  	color: transparent;
+  	margin-bottom: 10px;
+  	font-family: "Play Bold";
+}
+
+.footer__container p{
+	margin: 0;
+	color: #615c61;
+	line-height: 10px;
+	font-size: 14px;
+	font-family: "Play Regular";
+}
+
+.footer__container{
+	background: #000;
+	background-size: cover;
+	padding: 15px 0;
+}
+
+.light .footer__container{
+	background: #fff;
+}
+
+.footer__container label{
+	margin: 0;
+	color: #615c61;
+	line-height: 18px;
+	font-size: 14px;
+	font-family: "Play Regular";
+	margin-bottom: 10px;
+}
+
+.subscribe-form.form-group{
+	width: 182px;
+	margin: 0 auto 10px auto;
+	position: relative;
+}
+
+.subscribe-form.form-group input{
+	position: relative;
+	background-color: #1a0d1a;
+	border: 2px solid #1a0d1a;
+	color: #fff;
+	font-weight: 500;
+	width: 100%;
+	max-width: 100%;
+	box-sizing: border-box;
+	transition: 0.3s;
+	padding: 0 10px;
+}
+
+.light .subscribe-form.form-group input{
+	background: #cacaca;
+	border: 2px solid #cacaca;
+}
+
+.navbar-brand{
+	max-width: 178px;
+	display: block;
+	margin: auto;
+}
+
+.mobile-menu{
+	display: none;
+}
+
+.icon-menu{
+	font-size: 25px;
+	font-weight: bold;
+	color: #fff;
+	text-decoration: none;
+}
+
+.desktop-menu{
+	position: fixed;
+	width: 70%;
+	background-color: #fff;
+	height: 100%;
+	z-index: 1000;
+	top: 0;
+	left: 0;
+	z-index: 1003;
+	transform: translateX(-100%);
+	transition: 0.3s;
+}
+
+.desktop-menu ul{
+	padding: 0;
+	position: relative;
+	top: 50%;
+	margin-top: -209px;
+	display: block;
+	z-index: 1003;
+}
+
+.active{
+	transform: translateX(0%) !important;
+}
+
+.desktop-menu ul li{
+	padding: 20px;
+	list-style: none;
+}
+
+.desktop-menu ul li a{
+	font-size: 20px;
+	font-weight: bold;
+	color: #000;
+	text-align: center;
+	max-width: 100%;
+	display: block;
+	margin: auto;
+}
+
+.bg{
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	background: rgba(0, 0, 0, 0.7);
+	z-index: 1001;
+	top: 0;
+	display: none;
+}
+
+section{
+	padding: 30px 0;
+}
+
+.form__container{
+	width: 820px;
+	max-width: 100%;
+	margin: auto;
+	background: #000;
+	transform: skew(-5deg);
+	padding: 30px;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+	transition: 0.3s;
+}
+
+.light .form__container{
+	background: #fff;
+}
+
+.form__container input{
+	width: 100%;
+	max-width: 100%;
+	box-sizing: border-box;
+	padding: 0 15px;
+	height: 40px;
+	border: none;
+	background: #2c2c2c;
+	outline: none;
+	transition: 0.1s;
+	color: #fff;
+}
+
+.light .form__container input{background: #cacaca}
+
+.form__container input::placeholder{
+	color: #fff;
+}
+
+.light .form__container input::placeholder{
+	color: #000;
+}
+
+.form__container button{
+	width: 100%;
+	padding: 5px 10px;
+	box-sizing: border-box;
+	max-width: 100%;
+	margin: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 40px;
+	background: url(img/fir-button.png) center center no-repeat;
+	background-size: cover;
+	font-size: 18px;
+	font-weight: bold;
+	color: #fff;
+	border: none;
+	outline: none;
+}
+
+#to-upp{
+	width: 40px;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: fixed;
+	right: 30px;
+	bottom: 50px;
+	background: url(img/fir-button.png) center center no-repeat;
+	background-size: cover;
+	z-index: 999;
+	display: none;
+}
+
+#to-upp.active{
+	display: flex;
+}
+
+#to-upp img{
+	transform: rotate(90deg);
+	width: 30px;
+	max-width: 100%;
+	display: block;
+}
+
+
+
+@media screen and (max-width: 1200px){
+	.card__container{
+		margin: 30px 0;
+	}
+	.card__container.fix__card{
+		margin: 30px 0;
+	}
+}
+
+@media screen and (max-width: 767px){
+	.card__container{
+		margin: 30px auto;
+	}
+	.card__container.fix__card{
+		margin: 30px auto;
+	}
+}
+@media screen and (max-width: 991px){
+	header{
+		background: #000;
+		transition: 0.3s;
+	}
+
+	.light .icon-menu{
+		color: #000;
+	}
+
+	.light header{
+		background: #fff;
+	}
+
+	section{
+		padding: 20px 0;
+	}
+
+	h2{
+		font-size: 30px;
+		margin-bottom: 20px;
+	}
+
+	.game{margin-top: 0;}
+
+	.footer__container .logo{display: none;}
+	#sm{
+		display: block;
+		width: 20px;
+		margin: 0 auto;
+		transition: 0.3s;
+	}
+	
+	.light #sm{filter: invert(1);}
+
+	.card__item{
+		margin: 20px 0; 
+	}
+	.footer__container p{
+		font-size: 16px;
+		line-height: 20px;
+		margin-bottom: 15px;
+	}
+	.footer__container label{
+		font-size: 16px;
+		line-height: 20px;
+		text-align: center;
+	}
+	.subscribe-form.form-group input{
+		background-color: #fff;
+		border: 1px solid gray;
+		border-radius: 20px;
+	}
+	.footer__container{padding: 25px 0;}
+	.subscribe-form.form-group{margin-bottom: 0;}
+	.navbar{
+		display: none;
+	}
+	.mobile-menu{
+		display: block;
+		padding: 0 15px;
+		box-sizing: border-box;
+	}
+}
+
+@media screen and (max-width: 567px){
+	.card__item{margin: 10px 0;}
+	.card__container{margin: 15px auto;}
+}
+
+@media screen and (max-width: 370px){
+	.btn-orange{
+		padding: 5px 6px;
+	}
+	.title-post{
+		font-size: 25px;
+	}
+}
+
+
+
+
+@font-face{
+	font-family: "Play Regular";
+	src: url(fonts/Play/Play-Regular.ttf);
+}
+@font-face{
+	font-family: "Play Bold";
+	src: url(fonts/Play/Play-Bold.ttf);
+}
+@font-face{
+	font-family: "Magistral Bold";
+	src: url(fonts/Magistral/Magistral-Bold.otf);
+}
